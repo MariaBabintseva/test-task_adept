@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Blanda-O'Keefe",
+        "address": "629 Debbie Drive",
+        "amountEmployees": 4
+    },
+    {
+        "id": 2,
+        "name": "Aufderhar-Cronin",
+        "address": "8821 West Myrtle Avenue",
+        "amountEmployees": 5
+    },
+    {
+        "id": 3,
+        "name": "Lindgren LLC",
+        "address": "18 Densmore Drive",
+        "amountEmployees": 3
+    },
+    {
+        "id": 4,
+        "name": "Wolff and Sons",
+        "address": "210 Green Road",
+        "amountEmployees": 4
+    },
+    {
+        "id": 5,
+        "name": "Adams Inc",
+        "address": "8398 West Denton Lane",
+        "amountEmployees": 5
+    },
+    {
+        "id": 6,
+        "name": "D'Amore and Sons",
+        "address": "6231 North 67th Avenue",
+        "amountEmployees": 4
+    },
+    {
+        "id": 7,
+        "name": "Schimmel, Wilderman and Orn",
+        "address": "1407 Walden Court",
+        "amountEmployees": 3
+    },
+    {
+        "id": 8,
+        "name": "Corkery, Reichert and Hodkiewicz",
+        "address": "81 Seaton Place Northwest",
+        "amountEmployees": 1
+    },
+    {
+        "id": 9,
+        "name": "Gorczany Group",
+        "address": "12245 West 71st Place",
+        "amountEmployees": 6
+    },
+    {
+        "id": 10,
+        "name": "Bins Group",
+        "address": "1649 Timberridge Court",
+        "amountEmployees": 5
+    },
+    {
+        "id": 11,
+        "name": "Kuhn-Harber",
+        "address": "308 Woodleaf Court",
+        "amountEmployees": 6
+    },
+    {
+        "id": 12,
+        "name": "Goodwin-Skiles",
+        "address": "388 East Main Street",
+        "amountEmployees": 3
+    },
+    {
+        "id": 13,
+        "name": "Casper Inc",
+        "address": "310 Timrod Road",
+        "amountEmployees": 5
+    },
+    {
+        "id": 14,
+        "name": "Schoen Inc",
+        "address": "21950 Arnold Center Road",
+        "amountEmployees": 2
+    },
+    {
+        "id": 15,
+        "name": "Hahn-MacGyver",
+        "address": "22572 Toreador Drive",
+        "amountEmployees": 4
+    },
+    {
+        "id": 16,
+        "name": "Steuber, Considine and Padberg",
+        "address": "1407 Walden Court",
+        "amountEmployees": 5
+    },
+    {
+        "id": 17,
+        "name": "Bogisich and Sons",
+        "address": "20930 Todd Valley Road",
+        "amountEmployees": 4
+    },
+    {
+        "id": 18,
+        "name": "Metz Group",
+        "address": "3162 Martin Luther King Junior Boulevard",
+        "amountEmployees": 2
+    },
+    {
+        "id": 19,
+        "name": "Bahringer, Auer and Wehner",
+        "address": "6463 Vrain Street",
+        "amountEmployees": 5
+    },
+    {
+        "id": 20,
+        "name": "Hoppe Group",
+        "address": "491 Arabian Way",
+        "amountEmployees": 4
+    },
+    {
+        "id": 21,
+        "name": "Brekke Group",
+        "address": "5906 Milton Avenue",
+        "amountEmployees": 3
+    },
+    {
+        "id": 22,
+        "name": "Durgan Group",
+        "address": "8800 Cordell Circle",
+        "amountEmployees": 2
+    },
+    {
+        "id": 23,
+        "name": "Romaguera, Williamson and Kessler",
+        "address": "1770 Colony Way",
+        "amountEmployees": 5
+    },
+    {
+        "id": 24,
+        "name": "Wintheiser-Boehm",
+        "address": "80 North East Street",
+        "amountEmployees": 4
+    },
+    {
+        "id": 25,
+        "name": "Volkman Group",
+        "address": "125 John Street",
+        "amountEmployees": 1
+    },
+    {
+        "id": 26,
+        "name": "Boyle, Boyer and Lang",
+        "address": "1508 Massachusetts Avenue Southeast",
+        "amountEmployees": 4
+    },
+    {
+        "id": 27,
+        "name": "O'Hara and Sons",
+        "address": "600 West 19th Avenue",
+        "amountEmployees": 6
+    },
+    {
+        "id": 28,
+        "name": "Leffler, Beatty and Kilback",
+        "address": "109 Summit Street",
+        "amountEmployees": 5
+    },
+    {
+        "id": 29,
+        "name": "Bruen and Sons",
+        "address": "5403 Illinois Avenue",
+        "amountEmployees": 3
+    },
+    {
+        "id": 30,
+        "name": "Balistreri-Kshlerin",
+        "address": "816 West 19th Avenue",
+        "amountEmployees": 7
+    }
+]

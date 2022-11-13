@@ -1,38 +1,179 @@
+@font-face {
+  font-family: Gilroy;
+  src: url('../public/assets/fonts/gilroy-regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: Gilroy;
+  background-color: #eff3f8;
+  padding: 30px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.table {
+  width: 50vw;
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.toolbar {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.block-add {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.block-add input,
+.select-company {
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.block_enter-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block_enter-data input,
+.block_enter-data select {
+  width: 45%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.select-company option {
+  padding: 10px;
+}
+
+.btn-action {
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: Gilroy;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.btn-add {
+  background: #16A34A;
+}
+
+.btn-remove {
+  background: #EF4444
+}
+
+.btn-save {
+  background: #4F46E5;
+}
+
+.btn-remove:disabled {
+  opacity: 0.6;
+}
+
+.table table {
+  width: 100%;
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+.table-head {
+  background: #f8f9fa;
+  font-weight: 700;
+}
+
+.table table tr td {
+  padding: 10px;
+}
+
+.table table tr td:not(:first-child) {
+  width: 25%;
+}
+
+.cell-checkbox {
+  width: 10%;
+}
+
+input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+}
+
+.amount {
+  text-align: center;
+  cursor: auto;
+}
+
+.table table tbody tr:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FFFFFF;
+  background-color: #fcfcfc;
+}
+
+tbody tr.active {
+  background-color: #EEF2FF;
+  color: #4338CA;
+}
+
+.table table tbody tr.active:hover {
+  background-color: #EEF2FF;
+}
+
+.table table tr td.redact-field {
+  width: 25%;
+  padding: 0;
+}
+
+.redact-field input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: 1px solid #dee2e6;
+  font-family: Gilroy;
+}
+
+@media (max-width: 1000px) {
+
+  .block_enter-data input,
+  .block_enter-data select {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+}
+
+@media (max-width: 830px) {
+
+  .block-add {
+    flex-wrap: wrap;
   }
+
+  .btn-save {
+    margin-top: 10px;
+  }
+
 }
